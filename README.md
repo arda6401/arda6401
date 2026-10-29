@@ -37,19 +37,19 @@
 
 | Proje | Açıklama | Dil |
 | :---- | :------- | :-- |
-| **[Game-server](https://github.com/arda6464/Game-server)** | Oyun sunucusu altyapısı ve yönetim araçları | C# |
-| **[Brawl-stars-Ddos](https://github.com/arda6464/Brawl-stars-Ddos)** | Ağ trafiği analizi ve güvenlik denemeleri | Python |
-| **[Time-brawl](https://github.com/arda6464/Time-brawl)** | Zaman tabanlı deney projesi | C++ |
+| **[Game-server](https://github.com/arda6401/Game-server)** | Oyun sunucusu altyapısı ve yönetim araçları | C# |
+| **[Brawl-stars-Ddos](https://github.com/arda6401/Brawl-stars-Ddos)** | Ağ trafiği analizi ve güvenlik denemeleri | Python |
+| **[Time-brawl](https://github.com/arda6401/Time-brawl)** | Zaman tabanlı deney projesi | C++ |
 
 ## GitHub İstatistikleri
 
 <p align="center">
-  <img height="165" src="https://github-stats-extended.vercel.app/api?username=arda6464&show_icons=true&hide_border=true&bg_color=00000000&title_color=a855f7&text_color=8b949e&icon_color=06b6d4&include_all_commits=true&count_private=true" alt="GitHub istatistikleri" />
-  <img height="165" src="https://streak-stats.demolab.com?user=arda6464&hide_border=true&background=00000000&stroke=30363d&ring=a855f7&fire=06b6d4&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=a855f7&sideLabels=8b949e&dates=6e7681" alt="Streak" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=arda6401&show_icons=true&hide_border=true&bg_color=00000000&title_color=a855f7&text_color=8b949e&icon_color=06b6d4&include_all_commits=true&count_private=true" alt="GitHub istatistikleri" />
+  <img height="165" src="https://streak-stats.demolab.com?user=arda6401&hide_border=true&background=00000000&stroke=30363d&ring=a855f7&fire=06b6d4&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=a855f7&sideLabels=8b949e&dates=6e7681" alt="Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=arda6464&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=a855f7&text_color=8b949e" alt="En çok kullanılan diller" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=arda6401&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=a855f7&text_color=8b949e" alt="En çok kullanılan diller" />
 </p>
 
 ## Katkı Yılanı
@@ -69,7 +69,7 @@
 ---
 
 <div align="center">
-<sub><a href="https://github.com/arda6464">arda6464</a> · Türkiye</sub>
+<sub><a href="https://github.com/arda6401">arda6401</a> · Türkiye</sub>
 </div>
 
 <!--
