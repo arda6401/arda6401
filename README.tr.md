@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Arda — Backend Sunucu Geliştirici"/>
+<img src="./assets/banner.svg" width="100%" alt="Arda — Backend Sunucu Geliştirici"/>
 
 <br/>
 
@@ -9,11 +9,16 @@
 &nbsp;&nbsp;
 <a href="./README.tr.md"><img src="https://img.shields.io/badge/🌐 Türkçe-active-22d3ee?style=flat-square&labelColor=0d0d1a&color=22d3ee" alt="Türkçe"/></a>
 
+<br/><br/>
+
+<!-- Ziyaretçi Sayacı -->
+<img src="https://komarev.com/ghpvc/?username=arda6401&style=for-the-badge&color=a855f7&label=PROFİL+GÖRÜNTÜLENMESİ&abbreviated=true" alt="Profil Görüntülenmesi"/>
+
 </div>
 
 <br/>
 
-<img src="./techstack.svg" width="100%" alt="Teknoloji Yığını"/>
+<img src="./assets/techstack.svg" width="100%" alt="Teknoloji Yığını"/>
 
 <br/>
 
@@ -30,7 +35,7 @@ Oyun sunucu altyapısı ve çok oyunculu sistemler üzerine yoğunlaşan bir **b
 <br/>
 
 <div align="center">
-<img src="./terminal.tr.svg" width="100%" alt="Terminal — arda@sunucu: ~/backend"/>
+<img src="./assets/terminal.tr.svg" width="100%" alt="C# Profil — arda@sunucu"/>
 </div>
 
 <br/>
@@ -87,6 +92,8 @@ Oyun sunucu altyapısı ve çok oyunculu sistemler üzerine yoğunlaşan bir **b
 </div>
 
 <!--
-  Yılan animasyonu: .github/workflows/profile.yml → profile/snake-{light,dark}.svg
-  İstatistik kartları: github-stats-extended.vercel.app + streak-stats.demolab.com
+  Yılan animasyonu : .github/workflows/profile.yml → profile/snake-{light,dark}.svg
+  İstatistik kartları : github-stats-extended.vercel.app + streak-stats.demolab.com
+  Ziyaretçi sayacı : komarev.com/ghpvc
+  SVG dosyaları    : ./assets/
 -->

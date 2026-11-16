@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Arda — Backend Server Developer"/>
+<img src="./assets/banner.svg" width="100%" alt="Arda — Backend Server Developer"/>
 
 <br/>
 
@@ -9,11 +9,16 @@
 &nbsp;&nbsp;
 <a href="./README.tr.md"><img src="https://img.shields.io/badge/🌐 Türkçe-switch-22d3ee?style=flat-square&labelColor=0d0d1a&color=22d3ee" alt="Türkçe"/></a>
 
+<br/><br/>
+
+<!-- Visitor Counter -->
+<img src="https://komarev.com/ghpvc/?username=arda6401&style=for-the-badge&color=a855f7&label=PROFILE+VIEWS&abbreviated=true" alt="Profile Views"/>
+
 </div>
 
 <br/>
 
-<img src="./techstack.svg" width="100%" alt="Tech Stack"/>
+<img src="./assets/techstack.svg" width="100%" alt="Tech Stack"/>
 
 <br/>
 
@@ -30,7 +35,7 @@
 <br/>
 
 <div align="center">
-<img src="./terminal.svg" width="100%" alt="Terminal — arda@server: ~/backend"/>
+<img src="./assets/terminal.svg" width="100%" alt="C# Profile — arda@server"/>
 </div>
 
 <br/>
@@ -87,6 +92,8 @@
 </div>
 
 <!--
-  Snake animation: .github/workflows/profile.yml → profile/snake-{light,dark}.svg
-  Stats cards: github-stats-extended.vercel.app + streak-stats.demolab.com
+  Snake animation : .github/workflows/profile.yml → profile/snake-{light,dark}.svg
+  Stats cards     : github-stats-extended.vercel.app + streak-stats.demolab.com
+  Visitor counter : komarev.com/ghpvc
+  SVG assets      : ./assets/
 -->
