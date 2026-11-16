@@ -2,12 +2,6 @@
 
 <img src="./assets/banner.svg" width="100%" alt="Arda — Backend Server Developer"/>
 
-<br/>
-
-<!-- Language Toggle -->
-<a href="./README.md"><img src="https://img.shields.io/badge/🌐 English-active-a855f7?style=flat-square&labelColor=0d0d1a&color=a855f7" alt="English"/></a>
-&nbsp;&nbsp;
-<a href="./README.tr.md"><img src="https://img.shields.io/badge/🌐 Türkçe-switch-22d3ee?style=flat-square&labelColor=0d0d1a&color=22d3ee" alt="Türkçe"/></a>
 
 <br/><br/>
 

@@ -1,137 +1,179 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-label="arda@server: ~/backend — C# Profile">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-label="C# Developer Profile">
 <defs>
-  <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="760" y2="420">
-    <stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#22d3ee"/>
+  <linearGradient id="border-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="760" y2="460">
+    <stop offset="0" stop-color="#a855f7"/>
+    <stop offset="1" stop-color="#22d3ee"/>
   </linearGradient>
-  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+  <filter id="glow">
     <feGaussianBlur stdDeviation="3" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
+  <style>
+    .mono { font-family: 'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace; font-size: 14px; }
+    .kw   { fill: #c084fc; }   /* keyword     */
+    .type { fill: #38bdf8; }   /* type/class  */
+    .ns   { fill: #22d3ee; }   /* namespace   */
+    .str  { fill: #86efac; }   /* string      */
+    .bool { fill: #f472b6; }   /* bool value  */
+    .prop { fill: #e2e8f0; }   /* property    */
+    .sym  { fill: #94a3b8; }   /* symbols     */
+    .cmt  { fill: #4b5563; }   /* comment     */
+    .pmt  { fill: #a855f7; }   /* prompt $    */
+    .cmd  { fill: #6b7280; }   /* command     */
+    .ln-1  { animation: fadein 0.4s 0.2s  both; }
+    .ln-2  { animation: fadein 0.4s 0.5s  both; }
+    .ln-3  { animation: fadein 0.4s 0.8s  both; }
+    .ln-4  { animation: fadein 0.4s 1.1s  both; }
+    .ln-5  { animation: fadein 0.4s 1.5s  both; }
+    .ln-6  { animation: fadein 0.4s 1.8s  both; }
+    .ln-7  { animation: fadein 0.4s 2.1s  both; }
+    .ln-8  { animation: fadein 0.4s 2.5s  both; }
+    .ln-9  { animation: fadein 0.4s 2.9s  both; }
+    .ln-10 { animation: fadein 0.4s 3.3s  both; }
+    .ln-11 { animation: fadein 0.4s 3.7s  both; }
+    .ln-12 { animation: fadein 0.4s 4.1s  both; }
+    .ln-13 { animation: fadein 0.4s 4.5s  both; }
+    .ln-14 { animation: fadein 0.4s 4.9s  both; }
+    .ln-15 { animation: fadein 0.4s 5.3s  both; }
+    .ln-16 { animation: fadein 0.4s 5.7s  both; }
+    .ln-17 { animation: fadein 0.4s 6.0s  both; }
+    .ln-18 { animation: fadein 0.4s 6.3s  both; }
+    @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+  </style>
 </defs>
-<!-- Window -->
-<rect x="1" y="1" width="758" height="418" rx="14" fill="#0d0d16" stroke="#2a2340" stroke-width="1.5"/>
+
+<!-- Background -->
+<rect x="1" y="1" width="758" height="458" rx="14" fill="#0d0d16" stroke="#1e1b2e" stroke-width="1.5"/>
+
 <!-- Title bar -->
-<path d="M1,39 V15 a14,14 0 0 1 14,-14 H745 a14,14 0 0 1 14,14 V39 Z" fill="#12101c"/>
-<circle cx="22" cy="20" r="6" fill="#ff5f57" opacity=".85"/>
-<circle cx="42" cy="20" r="6" fill="#febc2e" opacity=".85"/>
-<circle cx="62" cy="20" r="6" fill="#28c840" opacity=".85"/>
-<text x="380" y="25" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">arda@server: ~/backend/Profile.cs</text>
+<rect x="1" y="1" width="758" height="38" rx="14" fill="#12101c"/>
+<rect x="1" y="20" width="758" height="19" fill="#12101c"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f57" opacity=".9"/>
+<circle cx="42" cy="20" r="6" fill="#febc2e" opacity=".9"/>
+<circle cx="62" cy="20" r="6" fill="#28c840" opacity=".9"/>
+<text x="380" y="25" text-anchor="middle" class="mono" font-size="12" fill="#4b5563">Profile.cs — arda@server</text>
 
-<!-- ═══ CODE LINES ═══ -->
-<g font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="14">
+<!-- ── C# Code ── -->
 
-  <!-- line 1: // Backend Server Developer -->
-  <text x="30" y="68" fill="#6b7280">// Backend Server Developer — github.com/arda6401</text>
+<!-- 1: comment -->
+<text x="30" y="68" class="mono cmt ln-1">// Backend Server Developer · github.com/arda6401</text>
 
-  <!-- line 2: using System; -->
-  <text x="30" y="90" fill="#c084fc">using</text>
-  <text x="84" y="90" fill="#e2e8f0">System;</text>
+<!-- 2: blank line (spacer) -->
 
-  <!-- line 3: using System.Collections.Generic; -->
-  <text x="30" y="110" fill="#c084fc">using</text>
-  <text x="84" y="110" fill="#e2e8f0">System.Collections.Generic;</text>
-
-  <!-- line 4: blank -->
-
-  <!-- line 5: namespace Arda.Profile -->
-  <text x="30" y="148" fill="#c084fc">namespace</text>
-  <text x="120" y="148" fill="#22d3ee">Arda</text>
-  <text x="156" y="148" fill="#94a3b8">.</text>
-  <text x="165" y="148" fill="#22d3ee">Profile</text>
-
-  <!-- line 6: { -->
-  <text x="30" y="168" fill="#94a3b8">{</text>
-
-  <!-- line 7: public class Developer -->
-  <text x="48" y="188" fill="#c084fc">public class</text>
-  <text x="156" y="188" fill="#38bdf8">Developer</text>
-
-  <!-- line 8: { -->
-  <text x="48" y="208" fill="#94a3b8">{</text>
-
-  <!-- line 9: public string Name -->
-  <text x="66" y="228" fill="#c084fc">public string</text>
-  <text x="174" y="228" fill="#e2e8f0">Name</text>
-  <text x="210" y="228" fill="#94a3b8">=&gt;</text>
-  <text x="234" y="228" fill="#86efac">"arda"</text>
-  <text x="288" y="228" fill="#94a3b8">;</text>
-
-  <!-- line 10: public string Role -->
-  <text x="66" y="248" fill="#c084fc">public string</text>
-  <text x="174" y="248" fill="#e2e8f0">Role</text>
-  <text x="210" y="248" fill="#94a3b8">=&gt;</text>
-  <text x="234" y="248" fill="#86efac">"Backend Server Developer"</text>
-  <text x="468" y="248" fill="#94a3b8">;</text>
-
-  <!-- line 11: public string Location -->
-  <text x="66" y="268" fill="#c084fc">public string</text>
-  <text x="174" y="268" fill="#e2e8f0">Location</text>
-  <text x="234" y="268" fill="#94a3b8">=&gt;</text>
-  <text x="258" y="268" fill="#86efac">"Turkey"</text>
-  <text x="324" y="268" fill="#94a3b8">;</text>
-
-  <!-- line 12: public string[] Stack -->
-  <text x="66" y="288" fill="#c084fc">public string</text>
-  <text x="174" y="288" fill="#94a3b8">[]</text>
-  <text x="190" y="288" fill="#e2e8f0">Stack</text>
-  <text x="232" y="288" fill="#94a3b8">=&gt; new[]</text>
-  <text x="306" y="288" fill="#94a3b8">{</text>
-  <text x="318" y="288" fill="#86efac">"C#"</text>
-  <text x="348" y="288" fill="#94a3b8">,</text>
-  <text x="358" y="288" fill="#86efac">"Unity"</text>
-  <text x="410" y="288" fill="#94a3b8">,</text>
-  <text x="420" y="288" fill="#86efac">"C++"</text>
-  <text x="460" y="288" fill="#94a3b8">,</text>
-  <text x="470" y="288" fill="#86efac">"Python"</text>
-  <text x="534" y="288" fill="#94a3b8">};</text>
-
-  <!-- line 13: public string Building -->
-  <text x="66" y="308" fill="#c084fc">public string</text>
-  <text x="174" y="308" fill="#e2e8f0">Building</text>
-  <text x="234" y="308" fill="#94a3b8">=&gt;</text>
-  <text x="258" y="308" fill="#86efac">"Multiplayer Game Servers"</text>
-  <text x="492" y="308" fill="#94a3b8">;</text>
-
-  <!-- line 14: public bool RunsOwnServers -->
-  <text x="66" y="328" fill="#c084fc">public bool</text>
-  <text x="156" y="328" fill="#e2e8f0">RunsOwnServers</text>
-  <text x="282" y="328" fill="#94a3b8">=&gt;</text>
-  <text x="306" y="328" fill="#f472b6">true</text>
-  <text x="330" y="328" fill="#94a3b8">;</text>
-
-  <!-- line 15: } -->
-  <text x="48" y="348" fill="#94a3b8">}</text>
-
-  <!-- line 16: } -->
-  <text x="30" y="368" fill="#94a3b8">}</text>
-
-  <!-- line 17: prompt -->
-  <text x="30" y="395" fill="#a855f7">$</text>
-  <text x="48" y="395" fill="#94a3b8">dotnet run --project ./Server</text>
-  <rect x="338" y="381" width="8" height="16" fill="#22d3ee">
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
+<!-- 3: using System -->
+<g class="ln-2">
+  <text x="30"  y="98"  class="mono kw">using</text>
+  <text x="80"  y="98"  class="mono sym"> System;</text>
 </g>
 
-<!-- Typing curtain animation — covers lines then slides right as "typed" -->
-<rect x="29" y="56"  width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;720;720;29" keyTimes="0;.04;.09;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="78"  width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;180;180;29" keyTimes="0;.09;.13;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="98"  width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;390;390;29" keyTimes="0;.13;.18;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="136" width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;216;216;29" keyTimes="0;.18;.23;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="156" width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;46;46;29"  keyTimes="0;.23;.25;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="176" width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;170;170;29" keyTimes="0;.25;.30;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="196" width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;64;64;29"  keyTimes="0;.30;.32;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="216" width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;296;296;29" keyTimes="0;.32;.37;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="236" width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;476;476;29" keyTimes="0;.37;.44;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="256" width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;332;332;29" keyTimes="0;.44;.49;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="276" width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;545;545;29" keyTimes="0;.49;.57;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="296" width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;500;500;29" keyTimes="0;.57;.64;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="316" width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;340;340;29" keyTimes="0;.64;.69;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="336" width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;64;64;29"  keyTimes="0;.69;.71;.95;1" dur="20s" repeatCount="indefinite"/></rect>
-<rect x="29" y="356" width="730" height="18" fill="#0d0d16"><animate attributeName="x" values="29;29;46;46;29"  keyTimes="0;.71;.73;.95;1" dur="20s" repeatCount="indefinite"/></rect>
+<!-- 4: using Collections -->
+<g class="ln-3">
+  <text x="30"  y="118" class="mono kw">using</text>
+  <text x="80"  y="118" class="mono sym"> System.Collections.Generic;</text>
+</g>
+
+<!-- 5: blank spacer -->
+
+<!-- 6: namespace -->
+<g class="ln-4">
+  <text x="30"  y="150" class="mono kw">namespace</text>
+  <text x="119" y="150" class="mono ns"> Arda</text>
+  <text x="155" y="150" class="mono sym">.</text>
+  <text x="163" y="150" class="mono ns">Profile</text>
+</g>
+
+<!-- 7: { -->
+<text x="30" y="170" class="mono sym ln-5">{</text>
+
+<!-- 8: public class Developer -->
+<g class="ln-6">
+  <text x="48"  y="192" class="mono kw">public class</text>
+  <text x="148" y="192" class="mono type"> Developer</text>
+</g>
+
+<!-- 9: { -->
+<text x="48" y="212" class="mono sym ln-7">{</text>
+
+<!-- 10: Name -->
+<g class="ln-8">
+  <text x="66"  y="234" class="mono kw">public string</text>
+  <text x="174" y="234" class="mono prop"> Name</text>
+  <text x="216" y="234" class="mono sym"> =&gt;</text>
+  <text x="240" y="234" class="mono str"> "arda"</text>
+  <text x="296" y="234" class="mono sym">;</text>
+</g>
+
+<!-- 11: Role -->
+<g class="ln-9">
+  <text x="66"  y="256" class="mono kw">public string</text>
+  <text x="174" y="256" class="mono prop"> Role</text>
+  <text x="216" y="256" class="mono sym"> =&gt;</text>
+  <text x="240" y="256" class="mono str"> "Backend Server Developer"</text>
+  <text x="492" y="256" class="mono sym">;</text>
+</g>
+
+<!-- 12: Location -->
+<g class="ln-10">
+  <text x="66"  y="278" class="mono kw">public string</text>
+  <text x="174" y="278" class="mono prop"> Location</text>
+  <text x="258" y="278" class="mono sym"> =&gt;</text>
+  <text x="282" y="278" class="mono str"> "Turkey"</text>
+  <text x="348" y="278" class="mono sym">;</text>
+</g>
+
+<!-- 13: Stack -->
+<g class="ln-11">
+  <text x="66"  y="300" class="mono kw">public string</text>
+  <text x="174" y="300" class="mono sym">[]</text>
+  <text x="190" y="300" class="mono prop"> Stack</text>
+  <text x="240" y="300" class="mono sym"> =&gt; new[] {</text>
+  <text x="346" y="300" class="mono str"> "C#"</text>
+  <text x="380" y="300" class="mono sym">,</text>
+  <text x="388" y="300" class="mono str"> "Unity"</text>
+  <text x="444" y="300" class="mono sym">,</text>
+  <text x="452" y="300" class="mono str"> "C++"</text>
+  <text x="492" y="300" class="mono sym">,</text>
+  <text x="500" y="300" class="mono str"> "Python"</text>
+  <text x="560" y="300" class="mono sym"> };</text>
+</g>
+
+<!-- 14: Building -->
+<g class="ln-12">
+  <text x="66"  y="322" class="mono kw">public string</text>
+  <text x="174" y="322" class="mono prop"> Building</text>
+  <text x="258" y="322" class="mono sym"> =&gt;</text>
+  <text x="282" y="322" class="mono str"> "Multiplayer Game Servers"</text>
+  <text x="534" y="322" class="mono sym">;</text>
+</g>
+
+<!-- 15: RunsOwnServers -->
+<g class="ln-13">
+  <text x="66"  y="344" class="mono kw">public bool</text>
+  <text x="156" y="344" class="mono prop"> RunsOwnServers</text>
+  <text x="296" y="344" class="mono sym"> =&gt;</text>
+  <text x="320" y="344" class="mono bool"> true</text>
+  <text x="354" y="344" class="mono sym">;</text>
+</g>
+
+<!-- 16: } inner -->
+<text x="48" y="364" class="mono sym ln-14">}</text>
+
+<!-- 17: } outer -->
+<text x="30" y="384" class="mono sym ln-15">}</text>
+
+<!-- 18: prompt -->
+<g class="ln-16">
+  <text x="30"  y="420" class="mono pmt">$</text>
+  <text x="46"  y="420" class="mono cmd"> dotnet run --project ./Server</text>
+  <rect x="296" y="406" width="8.5" height="16" fill="#22d3ee" class="cursor ln-17"/>
+</g>
 
 <!-- Animated gradient border -->
-<rect x="1" y="1" width="758" height="418" rx="14" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-dasharray="160 2600" filter="url(#glow)">
-  <animate attributeName="stroke-dashoffset" from="0" to="-2760" dur="7s" repeatCount="indefinite"/>
+<rect x="1" y="1" width="758" height="458" rx="14" fill="none"
+      stroke="url(#border-grad)" stroke-width="2"
+      stroke-dasharray="180 2800" filter="url(#glow)">
+  <animate attributeName="stroke-dashoffset" from="0" to="-2980" dur="8s" repeatCount="indefinite"/>
 </rect>
 </svg>
