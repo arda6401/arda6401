@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380" role="img" aria-label="arda@server: ~/backend">
+<defs>
+  <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="760" y2="380">
+    <stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#22d3ee"/>
+  </linearGradient>
+  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="1" y="1" width="758" height="378" rx="14" fill="#0a0a10" stroke="#2a2340" stroke-width="1.5"/>
+<!-- Title bar -->
+<path d="M1,39 V15 a14,14 0 0 1 14,-14 H745 a14,14 0 0 1 14,14 V39 Z" fill="#12101c"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f57" opacity=".85"/>
+<circle cx="42" cy="20" r="6" fill="#febc2e" opacity=".85"/>
+<circle cx="62" cy="20" r="6" fill="#28c840" opacity=".85"/>
+<text x="380" y="25" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12" fill="#6b7280">arda@server: ~/backend</text>
+<!-- Terminal content - animated typing -->
+<g>
+  <animate attributeName="opacity" values="1;1;0;0" keyTimes="0.00000;0.94299;0.97150;1.00000" dur="22s" repeatCount="indefinite"/>
+  <!-- $ whoami -->
+  <text x="30" y="67" fill="#a855f7" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">$</text>
+  <text x="48" y="67" fill="#f8fafc" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="54" lengthAdjust="spacing">whoami</text>
+  <text x="30" y="91" fill="#67e8f9" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="36" lengthAdjust="spacing">arda</text>
+  <!-- $ cat profile.ts -->
+  <text x="30" y="115" fill="#a855f7" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">$</text>
+  <text x="48" y="115" fill="#f8fafc" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="27" lengthAdjust="spacing">cat</text>
+  <text x="84" y="115" fill="#f8fafc" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="90" lengthAdjust="spacing">profile.ts</text>
+  <!-- const arda = { -->
+  <text x="30" y="139" fill="#c084fc" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="45" lengthAdjust="spacing">const</text>
+  <text x="84" y="139" fill="#22d3ee" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="36" lengthAdjust="spacing">arda</text>
+  <text x="129" y="139" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">=</text>
+  <text x="147" y="139" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">{</text>
+  <!-- role: "Backend Server Developer" -->
+  <text x="48" y="163" fill="#e2e8f0" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="36" lengthAdjust="spacing">role</text>
+  <text x="84" y="163" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">:</text>
+  <text x="102" y="163" fill="#86efac" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="234" lengthAdjust="spacing">"Backend Server Developer"</text>
+  <text x="336" y="163" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">,</text>
+  <!-- location: "Turkey" -->
+  <text x="48" y="187" fill="#e2e8f0" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="72" lengthAdjust="spacing">location</text>
+  <text x="120" y="187" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">:</text>
+  <text x="138" y="187" fill="#86efac" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="72" lengthAdjust="spacing">"Turkey"</text>
+  <text x="210" y="187" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">,</text>
+  <!-- stack: ["C#", "C++", "Python", ".NET"] -->
+  <text x="48" y="211" fill="#e2e8f0" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="45" lengthAdjust="spacing">stack</text>
+  <text x="93" y="211" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">:</text>
+  <text x="111" y="211" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">[</text>
+  <text x="120" y="211" fill="#86efac" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="63" lengthAdjust="spacing">"Unity"</text>
+  <text x="183" y="211" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">,</text>
+  <text x="201" y="211" fill="#86efac" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="36" lengthAdjust="spacing">"C#"</text>
+  <text x="237" y="211" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">,</text>
+  <text x="255" y="211" fill="#86efac" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="45" lengthAdjust="spacing">"C++"</text>
+  <text x="300" y="211" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">,</text>
+  <text x="318" y="211" fill="#86efac" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="72" lengthAdjust="spacing">"Python"</text>
+  <text x="390" y="211" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">]</text>
+  <text x="399" y="211" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">,</text>
+  <!-- building: "Multiplayer game servers" -->
+  <text x="48" y="235" fill="#e2e8f0" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="72" lengthAdjust="spacing">building</text>
+  <text x="120" y="235" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">:</text>
+  <text x="138" y="235" fill="#86efac" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="261" lengthAdjust="spacing">"Multiplayer game servers"</text>
+  <text x="399" y="235" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">,</text>
+  <!-- learning: ["Distributed Systems", "Networking"] -->
+  <text x="48" y="259" fill="#e2e8f0" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="72" lengthAdjust="spacing">learning</text>
+  <text x="120" y="259" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">:</text>
+  <text x="138" y="259" fill="#86efac" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="324" lengthAdjust="spacing">["Distributed Sys", "APIs"]</text>
+  <text x="462" y="259" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">,</text>
+  <!-- funFact: "I run my own servers" -->
+  <text x="48" y="283" fill="#e2e8f0" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="63" lengthAdjust="spacing">funFact</text>
+  <text x="111" y="283" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">:</text>
+  <text x="129" y="283" fill="#86efac" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="207" lengthAdjust="spacing">"I run my own servers"</text>
+  <text x="336" y="283" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">,</text>
+  <!-- }; -->
+  <text x="30" y="307" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">}</text>
+  <text x="39" y="307" fill="#94a3b8" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">;</text>
+  <!-- next prompt -->
+  <text x="30" y="351" fill="#a855f7" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="15" textLength="9" lengthAdjust="spacing">$</text>
+</g>
+<!-- Typing animation overlays (cover unrevealed text) -->
+<rect x="29" y="50" width="730" height="24" fill="#0a0a10"><animate attributeName="x" values="29;29;102;102;29" keyTimes="0.00000;0.03800;0.06461;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.03800;0.03895;0.06461;0.06556;1.00000" dur="22s" repeatCount="indefinite"/><rect x="29" y="53" width="8" height="18" fill="#22d3ee"><animate attributeName="x" values="29;29;102;102;29" keyTimes="0.00000;0.03800;0.06461;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect></g>
+<rect x="29" y="74" width="730" height="24" fill="#0a0a10"><animate attributeName="x" values="29;29;66;66;29" keyTimes="0.00000;0.08836;0.09786;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.08836;0.08931;0.09786;0.09881;1.00000" dur="22s" repeatCount="indefinite"/><rect x="29" y="77" width="8" height="18" fill="#22d3ee"><animate attributeName="x" values="29;29;66;66;29" keyTimes="0.00000;0.08836;0.09786;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect></g>
+<rect x="29" y="98" width="730" height="24" fill="#0a0a10"><animate attributeName="x" values="29;29;183;183;29" keyTimes="0.00000;0.12637;0.17197;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.12637;0.12732;0.17197;0.17292;1.00000" dur="22s" repeatCount="indefinite"/><rect x="29" y="101" width="8" height="18" fill="#22d3ee"><animate attributeName="x" values="29;29;183;183;29" keyTimes="0.00000;0.12637;0.17197;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect></g>
+<rect x="29" y="122" width="730" height="24" fill="#0a0a10"><animate attributeName="x" values="29;29;156;156;29" keyTimes="0.00000;0.19572;0.22233;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.19572;0.19667;0.22233;0.22328;1.00000" dur="22s" repeatCount="indefinite"/><rect x="29" y="125" width="8" height="18" fill="#22d3ee"><animate attributeName="x" values="29;29;156;156;29" keyTimes="0.00000;0.19572;0.22233;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect></g>
+<rect x="29" y="146" width="730" height="24" fill="#0a0a10"><animate attributeName="x" values="29;29;345;345;29" keyTimes="0.00000;0.23658;0.30214;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.23658;0.23753;0.30214;0.30309;1.00000" dur="22s" repeatCount="indefinite"/><rect x="29" y="149" width="8" height="18" fill="#22d3ee"><animate attributeName="x" values="29;29;345;345;29" keyTimes="0.00000;0.23658;0.30214;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect></g>
+<rect x="29" y="170" width="730" height="24" fill="#0a0a10"><animate attributeName="x" values="29;29;219;219;29" keyTimes="0.00000;0.31639;0.34774;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.31639;0.31734;0.34774;0.34869;1.00000" dur="22s" repeatCount="indefinite"/><rect x="29" y="173" width="8" height="18" fill="#22d3ee"><animate attributeName="x" values="29;29;219;219;29" keyTimes="0.00000;0.31639;0.34774;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect></g>
+<rect x="29" y="194" width="730" height="24" fill="#0a0a10"><animate attributeName="x" values="29;29;408;408;29" keyTimes="0.00000;0.36200;0.42185;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.36200;0.36295;0.42185;0.42280;1.00000" dur="22s" repeatCount="indefinite"/><rect x="29" y="197" width="8" height="18" fill="#22d3ee"><animate attributeName="x" values="29;29;408;408;29" keyTimes="0.00000;0.36200;0.42185;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect></g>
+<rect x="29" y="218" width="730" height="24" fill="#0a0a10"><animate attributeName="x" values="29;29;408;408;29" keyTimes="0.00000;0.43610;0.50451;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.43610;0.43705;0.50451;0.50546;1.00000" dur="22s" repeatCount="indefinite"/><rect x="29" y="221" width="8" height="18" fill="#22d3ee"><animate attributeName="x" values="29;29;408;408;29" keyTimes="0.00000;0.43610;0.50451;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect></g>
+<rect x="29" y="242" width="730" height="24" fill="#0a0a10"><animate attributeName="x" values="29;29;471;471;29" keyTimes="0.00000;0.51876;0.58575;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.51876;0.51971;0.58575;0.58670;1.00000" dur="22s" repeatCount="indefinite"/><rect x="29" y="245" width="8" height="18" fill="#22d3ee"><animate attributeName="x" values="29;29;471;471;29" keyTimes="0.00000;0.51876;0.58575;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect></g>
+<rect x="29" y="266" width="730" height="24" fill="#0a0a10"><animate attributeName="x" values="29;29;345;345;29" keyTimes="0.00000;0.60000;0.64846;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.60000;0.60095;0.64846;0.64941;1.00000" dur="22s" repeatCount="indefinite"/><rect x="29" y="269" width="8" height="18" fill="#22d3ee"><animate attributeName="x" values="29;29;345;345;29" keyTimes="0.00000;0.60000;0.64846;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect></g>
+<rect x="29" y="290" width="730" height="24" fill="#0a0a10"><animate attributeName="x" values="29;29;48;48;29" keyTimes="0.00000;0.66271;0.67221;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.66271;0.66366;0.67221;0.67316;1.00000" dur="22s" repeatCount="indefinite"/><rect x="29" y="293" width="8" height="18" fill="#22d3ee"><animate attributeName="x" values="29;29;48;48;29" keyTimes="0.00000;0.66271;0.67221;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect></g>
+<rect x="29" y="314" width="730" height="24" fill="#0a0a10"><animate attributeName="x" values="29;29;48;48;29" keyTimes="0.00000;0.69596;0.70546;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.00000;0.69596;0.69691;0.97150;1.00000" dur="22s" repeatCount="indefinite"/><rect x="29" y="337" width="8" height="18" fill="#22d3ee"><animate attributeName="x" values="29;29;48;48;29" keyTimes="0.00000;0.69596;0.70546;0.97150;1.00000" dur="22s" repeatCount="indefinite"/></rect></g>
+<!-- Animated gradient border -->
+<rect x="1" y="1" width="758" height="378" rx="14" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-dasharray="160 2440" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="-2600" dur="7s" repeatCount="indefinite"/></rect>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Arda — Backend Server Developer">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05010d"/><stop offset="1" stop-color="#0d0520"/></linearGradient>
+  <linearGradient id="tg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="440" y2="0" spreadMethod="repeat">
+    <stop offset="0" stop-color="#a855f7"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#a855f7"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="440 0" dur="5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="1"/></linearGradient>
+  <mask id="gm"><rect width="1200" height="300" fill="url(#fade)"/></mask>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+    <path d="M48 0H0V48" fill="none" stroke="#a855f7" stroke-opacity=".18" stroke-width="1"/>
+    <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="0 48" dur="4s" repeatCount="indefinite"/>
+  </pattern>
+  <filter id="b60" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="60"/></filter>
+  <filter id="b10" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+  <filter id="glow" x="-5%" y="-20%" width="110%" height="140%">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="rc"><rect width="1200" height="300" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#rc)">
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <!-- Orbs -->
+  <circle cx="220" cy="110" r="160" fill="#a855f7" opacity=".32" filter="url(#b60)">
+    <animate attributeName="cx" values="220;440;220" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="110;190;110" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="980" cy="200" r="160" fill="#06b6d4" opacity=".28" filter="url(#b60)">
+    <animate attributeName="cx" values="980;760;980" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="200;100;200" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="150" r="100" fill="#7c3aed" opacity=".15" filter="url(#b60)">
+    <animate attributeName="r" values="100;140;100" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Grid -->
+  <rect width="1200" height="300" fill="url(#grid)" mask="url(#gm)"/>
+  <!-- Stars -->
+  <circle cx="673" cy="85" r="1.8" fill="#e9d5ff" opacity=".2"><animate attributeName="opacity" values=".1;1;.1" dur="2.1s" begin="3.3s" repeatCount="indefinite"/></circle>
+  <circle cx="202" cy="195" r="0.8" fill="#e9d5ff" opacity=".2"><animate attributeName="opacity" values=".1;1;.1" dur="2.6s" begin="0.3s" repeatCount="indefinite"/></circle>
+  <circle cx="866" cy="43" r="1" fill="#ffffff" opacity=".2"><animate attributeName="opacity" values=".1;1;.1" dur="3.7s" begin="0.2s" repeatCount="indefinite"/></circle>
+  <circle cx="1168" cy="71" r="1" fill="#e9d5ff" opacity=".2"><animate attributeName="opacity" values=".1;1;.1" dur="3.9s" begin="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="822" cy="33" r="1" fill="#ffffff" opacity=".2"><animate attributeName="opacity" values=".1;1;.1" dur="3.7s" begin="0.5s" repeatCount="indefinite"/></circle>
+  <circle cx="380" cy="60" r="1" fill="#a5f3fc" opacity=".2"><animate attributeName="opacity" values=".1;1;.1" dur="2.3s" begin="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="509" cy="49" r="1.3" fill="#e9d5ff" opacity=".2"><animate attributeName="opacity" values=".1;1;.1" dur="3.5s" begin="1.4s" repeatCount="indefinite"/></circle>
+  <circle cx="720" cy="19" r="1.8" fill="#a5f3fc" opacity=".2"><animate attributeName="opacity" values=".1;1;.1" dur="2.5s" begin="0.5s" repeatCount="indefinite"/></circle>
+  <circle cx="290" cy="228" r="1.3" fill="#e9d5ff" opacity=".2"><animate attributeName="opacity" values=".1;1;.1" dur="3.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+  <circle cx="964" cy="253" r="1.8" fill="#a5f3fc" opacity=".2"><animate attributeName="opacity" values=".1;1;.1" dur="2.3s" begin="0.4s" repeatCount="indefinite"/></circle>
+  <!-- Floating code particles -->
+  <text x="978" y="320" font-family="'Fira Code',monospace" font-size="16" fill="#22d3ee" opacity="0">{ <animate attributeName="y" from="320" to="-20" dur="12.0s" begin="6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;.5;0" keyTimes="0;.15;.8;1" dur="12.0s" begin="6.5s" repeatCount="indefinite"/></text>
+  <text x="1067" y="320" font-family="'Fira Code',monospace" font-size="16" fill="#a855f7" opacity="0">}<animate attributeName="y" from="320" to="-20" dur="8.8s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;.5;0" keyTimes="0;.15;.8;1" dur="8.8s" begin="1.2s" repeatCount="indefinite"/></text>
+  <text x="166" y="320" font-family="'Fira Code',monospace" font-size="16" fill="#22d3ee" opacity="0">01<animate attributeName="y" from="320" to="-20" dur="10.0s" begin="4.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;.5;0" keyTimes="0;.15;.8;1" dur="10.0s" begin="4.1s" repeatCount="indefinite"/></text>
+  <text x="392" y="320" font-family="'Fira Code',monospace" font-size="16" fill="#a855f7" opacity="0">&lt;&gt;<animate attributeName="y" from="320" to="-20" dur="8.8s" begin="5.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;.5;0" keyTimes="0;.15;.8;1" dur="8.8s" begin="5.0s" repeatCount="indefinite"/></text>
+  <text x="607" y="320" font-family="'Fira Code',monospace" font-size="16" fill="#22d3ee" opacity="0">[]<animate attributeName="y" from="320" to="-20" dur="8.3s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;.5;0" keyTimes="0;.15;.8;1" dur="8.3s" begin="0.8s" repeatCount="indefinite"/></text>
+  <text x="257" y="320" font-family="'Fira Code',monospace" font-size="16" fill="#a855f7" opacity="0">=&gt;<animate attributeName="y" from="320" to="-20" dur="13.3s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;.5;0" keyTimes="0;.15;.8;1" dur="13.3s" begin="0.5s" repeatCount="indefinite"/></text>
+  <text x="843" y="320" font-family="'Fira Code',monospace" font-size="16" fill="#a855f7" opacity="0">0x<animate attributeName="y" from="320" to="-20" dur="10.7s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;.5;0" keyTimes="0;.15;.8;1" dur="10.7s" begin="0.6s" repeatCount="indefinite"/></text>
+  <text x="97" y="320" font-family="'Fira Code',monospace" font-size="16" fill="#22d3ee" opacity="0">//<animate attributeName="y" from="320" to="-20" dur="12.6s" begin="7.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;.5;0" keyTimes="0;.15;.8;1" dur="12.6s" begin="7.3s" repeatCount="indefinite"/></text>
+  <!-- Scan line -->
+  <rect x="0" y="-10" width="1200" height="2" fill="#a5f3fc" opacity=".08"><animate attributeName="y" from="-10" to="300" dur="5s" repeatCount="indefinite"/></rect>
+  <!-- Corner brackets -->
+  <path d="M14,54 V14 H54" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".7"><animate attributeName="opacity" values=".25;.9;.25" dur="2.4s" repeatCount="indefinite"/></path>
+  <path d="M1186,54 V14 H1146" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".7"><animate attributeName="opacity" values=".25;.9;.25" dur="2.4s" repeatCount="indefinite"/></path>
+  <path d="M14,246 V286 H54" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".7"><animate attributeName="opacity" values=".25;.9;.25" dur="2.4s" repeatCount="indefinite"/></path>
+  <path d="M1186,246 V286 H1146" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".7"><animate attributeName="opacity" values=".25;.9;.25" dur="2.4s" repeatCount="indefinite"/></path>
+  <!-- Server rack decoration (right side) -->
+  <g opacity=".22" transform="translate(1060,80)">
+    <rect x="0" y="0" width="80" height="12" rx="3" fill="none" stroke="#22d3ee" stroke-width="1"/>
+    <rect x="2" y="2" width="8" height="8" rx="1" fill="#22c55e"><animate attributeName="opacity" values="1;.2;1" dur="1.3s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="18" width="80" height="12" rx="3" fill="none" stroke="#a855f7" stroke-width="1"/>
+    <rect x="2" y="20" width="8" height="8" rx="1" fill="#f59e0b"><animate attributeName="opacity" values="1;.2;1" dur="2.1s" begin="0.4s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="36" width="80" height="12" rx="3" fill="none" stroke="#22d3ee" stroke-width="1"/>
+    <rect x="2" y="38" width="8" height="8" rx="1" fill="#22c55e"><animate attributeName="opacity" values="1;.2;1" dur="1.7s" begin="0.8s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="54" width="80" height="12" rx="3" fill="none" stroke="#a855f7" stroke-width="1"/>
+    <rect x="2" y="56" width="8" height="8" rx="1" fill="#22c55e"><animate attributeName="opacity" values="1;.2;1" dur="2.4s" begin="1.1s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="72" width="80" height="12" rx="3" fill="none" stroke="#22d3ee" stroke-width="1"/>
+    <rect x="2" y="74" width="8" height="8" rx="1" fill="#22c55e"><animate attributeName="opacity" values="1;.2;1" dur="1.9s" begin="0.2s" repeatCount="indefinite"/></rect>
+  </g>
+  <!-- Main title glitch -->
+  <text x="300" y="178" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="120" font-weight="900" textLength="500" lengthAdjust="spacing" fill="#a855f7" filter="url(#b10)" opacity=".7">ARDA<animate attributeName="opacity" values=".45;.9;.45" dur="3s" repeatCount="indefinite"/></text>
+  <text x="300" y="178" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="120" font-weight="900" textLength="500" lengthAdjust="spacing" fill="#22d3ee" opacity="0">ARDA<animate attributeName="opacity" values="0;0;.85;.85;0;0" keyTimes="0;.70;.71;.76;.77;1" dur="5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-7 0;7.0 0;0 0;0 0" keyTimes="0;.70;.71;.76;.77;1" dur="5s" repeatCount="indefinite"/></text>
+  <text x="300" y="178" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="120" font-weight="900" textLength="500" lengthAdjust="spacing" fill="#ec4899" opacity="0">ARDA<animate attributeName="opacity" values="0;0;.85;.85;0;0" keyTimes="0;.73;.74;.79;.80;1" dur="5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 -2;-7.0 0;0 0;0 0" keyTimes="0;.73;.74;.79;.80;1" dur="5s" repeatCount="indefinite"/></text>
+  <text x="300" y="178" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="120" font-weight="900" textLength="500" lengthAdjust="spacing" fill="url(#tg)">ARDA</text>
+  <!-- Subtitle -->
+  <text x="210" y="228" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="19" fill="#c4b5fd" textLength="680" lengthAdjust="spacing">BACKEND  ·  GAME SERVERS  ·  C#  ·  MULTIPLAYER<animate attributeName="opacity" values=".7;1;.7" dur="3s" repeatCount="indefinite"/></text>
+  <!-- Dashes around subtitle -->
+  <line x1="80" y1="221" x2="195" y2="221" stroke="#a855f7" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1.5s" repeatCount="indefinite"/></line>
+  <line x1="910" y1="221" x2="1050" y2="221" stroke="#a855f7" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1.5s" repeatCount="indefinite"/></line>
+  <!-- Status -->
+  <circle cx="36" cy="36" r="5" fill="#22c55e"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text x="50" y="41" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="14" fill="#86efac" letter-spacing="2">ONLINE</text>
+  <text x="1164" y="41" text-anchor="end" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="14" fill="#67e8f9" letter-spacing="2">TR · UTC+3</text>
+  <!-- Bottom terminal line -->
+  <text x="36" y="270" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="14" fill="#22d3ee">&gt;</text>
+  <text x="54" y="270" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="14" fill="#a78bfa" textLength="254" lengthAdjust="spacing">managing servers since day one</text>
+  <rect x="314" y="257" width="8" height="16" fill="#22d3ee"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/></rect>
+  <text x="1164" y="270" text-anchor="end" font-family="'Fira Code','JetBrains Mono','SF Mono',Consolas,'Courier New',monospace" font-size="14" fill="#6d28d9">// 2026</text>
+</g>
+<rect x="1" y="1" width="1198" height="298" rx="18" fill="none" stroke="#2a2340" stroke-width="1.5"/>
+</svg>
